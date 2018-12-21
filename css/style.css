@@ -1,7 +1,15 @@
-#judul {
+/*Navigation Bar*/
+#judulHalaman {
     font-size: 1.3rem;
+    color: #3C4043;
 }
 
+.navIcon {
+    color: #3C4043;
+}
+
+
+/*Container*/
 #containerCover {
     margin-top: 3rem;
 }
@@ -39,14 +47,87 @@ hr {
     margin-top: 10px;
 }
 
-.card-title {
-    color: black;
-    font-weight: 600 !important;
+
+/*Kartu*/
+.kartu {
+    height: 14rem;
+    padding: 0 !important;  
+    border-radius: 5px;  
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    margin-top: 1rem;
 }
 
-.card-content p {
-    color: #8E8E8E;
+#kartu1 {
+    border-top: 10px solid #2B6AE8;
 }
+
+#kartu2 {
+    border-top: 10px solid #F95B5B;
+}
+
+#kartu3 {
+    border-top: 10px solid #00D284;
+}
+
+#kartu4 {
+    border-top: 10px solid #FFC400;
+}
+
+
+.kartu-atas {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+
+.kartu-bawah {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+
+.judulKartu {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    top: 4rem;
+    color: #000000;
+}
+
+.kartu-icon-column {
+    height: 100%;
+    width: 100%;
+}
+
+.kartu-icon-container {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+#karcon1 {
+    background-color: #2B6AE8;
+}
+
+#karcon2 {
+    background-color: #F95B5B;
+}
+
+#karcon3 {
+    background-color: #00D284;
+}
+
+#karcon4 {
+    background-color: #FFC400;
+}
+
+.kartuDesc {
+    margin: 0;
+}
+
+
 
 
 /*Swiper Container*/
