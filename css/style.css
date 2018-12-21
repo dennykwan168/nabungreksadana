@@ -1,0 +1,56 @@
+#judul {
+    font-size: 1.3rem;
+}
+
+#containerCover {
+    margin-top: 3rem;
+}
+
+.container {
+    width: 70%;
+}
+
+#headingAtas, #headingBawah {
+    margin: -1.5% 0;
+}
+
+#subtext {
+    color: #8E8E8E;
+    font-size: 1rem;
+}
+
+#headingAtas {
+    font-size: 1.8rem;
+    color: #8E8E8E;
+    font-weight: lighter;
+}
+
+#headingBawah {
+    color: #26A69A;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #c0c8c9;
+    background-image: -webkit-linear-gradient(0deg, #fff, #c0c8c9, #fff);
+    margin-top: 10px;
+}
+
+.card-title {
+    color: black;
+    font-weight: 600 !important;
+}
+
+.card-content p {
+    color: #8E8E8E;
+}
+
+
+/*Swiper Container*/
+.swiper-container {
+    height: 100%;
+    width: 100%;
+}
